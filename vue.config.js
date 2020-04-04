@@ -16,7 +16,7 @@ module.exports = {
     },
   devServer: { https: true },
   pwa: {
-    themeColor: "#880e4f"
+    themeColor: "#1976d2"
   },
   "transpileDependencies": [
     "vuetify"

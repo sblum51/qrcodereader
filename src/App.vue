@@ -16,11 +16,13 @@
 
 </div>
 <div v-if="bottomNav == 'other'">
+
   <h2>A propos</h2>
 
   <p>Application développée par <a href="https://twitter.com/__si_mon" target="_blank">Simon</a>.</p>
   <p>Elle utilise les projets open-source <a href="https://vuejs.org/" target="_blank">Vue.js</a> &amp; <a href="http://vuetifyjs.com/" target="_blank">Vuetify</a></p>
-  <p>Cette application ne comporte aucun tracker</p>
+  <p>Cette application ne comporte aucun tracker. Code publié sur <a target="_blank" href="https://github.com/guizmo51/qrcodereader">Github</a></p>
+
 </div>
     </v-container>
   </v-content>
@@ -60,7 +62,6 @@ export default {
 methods: {
   onDecode(s) {
     alert(s);
-    console.log(s);
   }
 }
 }
